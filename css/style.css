@@ -1,0 +1,68 @@
+h1, h2, .column h3, p {
+    text-align: center;
+}
+
+.column {
+background-color: lightgray;
+float: left;
+width: 15%;
+
+border: 2px solid darkgray;
+margin: 20px;
+padding: 30px;
+border-radius: 5%;
+}
+
+.coltext{
+    float:right;
+}
+
+.column span {
+    font-style: italic;
+    background-color: aliceblue;
+}
+
+.column .dog {
+    font-size: 2rem;
+    color: darkblue;
+}
+
+.column .cat {
+    font-size: 2rem;
+     color: darkred;
+}
+
+.column .bird {
+    font-size: 2rem;
+    color: darkgreen;
+}
+
+.column .name {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+h1{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+
+}
+h2{
+    color: brown;
+}
+.animals .column img {
+    border: 2px solid darkgray;
+    border-radius: 5%;
+    height: 150px;
+    width: 180px;
+    float: left;
+}
+
+.column .pet{
+    border: 2px dotted blue;
+}
+
+.animals .column p{
+    color:plum;
+}
